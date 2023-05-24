@@ -1,58 +1,44 @@
 ---
-
 - taxonomy: 常用推荐
   icon: far fa-star
-  links: 
+  links:
     - title: 关注我们
       logo: ""
-      url: https://bioitee.com
-      qrcode: assets/images/logos/qrcode.jpg
-      description: BioIT 爱好者！
-    - title: 语雀
-      logo: 语雀.jpg
-      url: https://www.yuque.com/
-      description: 专业的云端知识库。
-    - title: QQ 邮箱
-      logo: qq邮箱.png
-      url: http://mail.qq.com/
-      description: 腾讯 QQ 邮箱。
-    - title: 开源中国
-      logo: 开源中国.jpg
-      url: https://www.oschina.net/
-      description: 中文开源技术交流社区。
+      url: https://ai.ruankao168.top/
+      qrcode: assets/images/logos/getqrcode.jpeg
+      description: 掘金高效率工具计划
+    - title: 免费的ChatGPT
+      logo: chatgpt.png
+      url: https://ai.ruankao168.top/
+      description: 免费的ChatGPT
     - title: 公众号平台
       logo: 微信公众号.png
       url: https://mp.weixin.qq.com/
       description: 再小的个体也有自己的品牌。
-    - title: CODING
-      logo: coding.png
-      url: https://shenweiyan.coding.net/user/projects
-      description: 个人 CODING 代码托管。
     - title: GitHub
       logo: github.jpg
       url: https://github.com/
       description: GitHub 开源社区。
-    - title: Md2X 定制版
-      logo: mdx.png
-      url: https://mdx.ncbix.com/
-      description: Markdown 排版利器，Md2All 定制版。
-    - title: 搜狗微信
-      logo: 搜狗微信.jpg
-      url: https://weixin.sogou.com/
-      description: 搜狗微信搜索，一搜即达。
-    - title: 知乎
-      logo: 知乎.png
-      url: https://www.zhihu.com/
-      description: 知乎社区。
     - title: V2EX
       logo: v2ex.jpg
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
-    - title: 语雀话题
-      logo: 语雀话题.png
-      url: https://www.yuque.com/shenweiyan/wow
-      description: 好看的皮囊千篇一律，有趣的灵魂万里挑一！
 
+- taxonomy: AI 工具大全
+  icon: fas fa-yen-sign
+  list:
+    - term: AI 写作
+      links:
+        - title: 免费的ChatGPT
+          logo: chatgpt.png
+          url: https://ai.ruankao168.top/
+          description: 免费的ChatGPT
+    - term: AI 绘图
+      links:
+        - title: 免费的ChatGPT
+          logo: chatgpt.png
+          url: https://ai.ruankao168.top/
+          description: 免费的ChatGPT
 
 - taxonomy: 科研办公
   icon: fas fa-flask fa-lg
@@ -98,7 +84,7 @@
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 云筏科技
-          logo: ''
+          logo: ""
           url: https://my.cloudraft.cn/
           description: 云筏 - 科研云。
         - title: 极云普惠云电脑
@@ -127,7 +113,6 @@
           logo: ProcessOn.png
           url: https://www.processon.com/
           description: 免费在线作图、实时协作。
-        
 
 - taxonomy: 悠闲娱乐
   icon: fas fa-film fa-lg
@@ -176,8 +161,7 @@
           logo: 战地之王.png
           url: https://ava.mangot5.com/ava/index
           description: 台服 AVA 战地之王。
-   
-      
+
 - taxonomy: 素材资源
   icon: far fa-folder-open fa-lg
   list:
@@ -386,7 +370,7 @@
         - title: Abstract Fonts
           url: http://www.abstractfonts.com/
           logo: abstractfonts.png
-          description: Abstract Fonts (13,866 free fonts).      
+          description: Abstract Fonts (13,866 free fonts).
     - term: PPT资源
       links:
         - title: OfficePLUS
@@ -413,11 +397,10 @@
           url: http://ppt.500d.me/
           logo: 500d.png
           description: 中国领先的PPT模板共享平台。
-      
 
 - taxonomy: 开发设计
   icon: fas fa-tools fa-lg
-  list: 
+  list:
     - term: 图形创意
       links:
         - title: photoshop
@@ -495,7 +478,7 @@
         - title: webgradients
           url: https://webgradients.com/
           logo: webgradients.png
-          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. 
+          description: WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website.
         - title: grabient
           url: https://www.grabient.com/
           logo: grabient.png
@@ -566,7 +549,7 @@
           url: https://www.gaoding.com
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
-        
+
     - term: 谷歌插件
       links:
         - title: wappalyzer
@@ -594,10 +577,9 @@
           logo: mustsee.png
           description: Discover the world's most beautiful places at every opened tab.
 
-
 - taxonomy: 资讯学习
   icon: fas fa-pencil-alt fa-lg
-  list: 
+  list:
     - term: 资讯书籍
       links:
         - title: 微信读书
@@ -628,7 +610,7 @@
           description: 阮一峰，科技爱好者周刊。
         - title: 酷壳
           url: https://www.coolshell.cn/
-          logo: ''
+          logo: ""
           description: 酷 壳 – CoolShell。
     - term: 设计规范
       links:
@@ -639,7 +621,7 @@
         - title: Awesome design systems
           url: https://github.com/alexpate/awesome-design-systems
           logo: awesome_design_systems.png
-          description:  A collection of awesome design systems.
+          description: A collection of awesome design systems.
         - title: Material Design
           url: https://material.io/guidelines/
           logo: Material_Design.png
@@ -670,4 +652,3 @@
           url: https://www.imooc.com/
           logo: imooc.png
           description: 程序员的梦工厂（有UI课程）。
-        

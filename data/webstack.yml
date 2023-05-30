@@ -12,15 +12,15 @@
       url: https://ai.ruankao168.top/
       description: 免费的ChatGPT
     - title: 软考通关宝典
-      logo: assets/images/logos/ruankao.png
+      logo: ruankao.png
       url: https://ruankao.eu.org/
       description: 软考通关宝典
     - title: 追马部落阁
-      logo: assets/images/logos/blog.png
+      logo: blog.png
       url: https://blog.ruankao168.top/
       description: 一个专注于追风的博客
     - title: 上上签
-      logo: assets/images/logos/上上签.png
+      logo: 上上签.png
       url: https://yunshi.ruankao168.top/
       description: 快来测一测你的运势吧
     - title: 公众号平台

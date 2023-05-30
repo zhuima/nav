@@ -24,8 +24,8 @@
       url: https://www.v2ex.com/
       description: V2EX 创意工作者的社区。
 
-- taxonomy: AI 工具大全
-  icon: fas fa-yen-sign
+- taxonomy: AI 工具
+  icon: fas fa-robot fa-lg icon-fw icon-lg mr-2
   list:
     - term: AI 写作
       links:
@@ -34,6 +34,20 @@
           url: https://ai.ruankao168.top/
           description: 免费的ChatGPT
     - term: AI 绘图
+      links:
+        - title: 免费的ChatGPT
+          logo: chatgpt.png
+          url: https://ai.ruankao168.top/
+          description: 免费的ChatGPT
+
+    - term: AI 办公
+      links:
+        - title: 免费的ChatGPT
+          logo: chatgpt.png
+          url: https://ai.ruankao168.top/
+          description: 免费的ChatGPT
+
+    - term: AI 编程
       links:
         - title: 免费的ChatGPT
           logo: chatgpt.png

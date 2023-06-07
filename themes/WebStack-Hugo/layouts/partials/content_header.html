@@ -25,20 +25,20 @@
                         </div>
 
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
-                        {{ range .Site.Data.headers }}
-			<li {{ if .list }}class="menu-item-has-children"{{ end }}>
-				<a href="{{ .link }}">
+                            {{ range .Site.Data.headers }}
+                            <li {{ if .list }}class="menu-item-has-children" {{ end }}>
+                                <a href="{{ .link }}">
                                     <i class="{{ .icon }} fa-lg mr-2"></i>
                                     <span>{{ .item }}</span>
                                 </a>
-				<ul class="sub-menu">
-				{{ range .list }}
-				    <li><a href="{{ .url }}">{{ .name }}</a></li>
-				{{ end }}
-				</ul>
-			    </li>
-			{{ end }}
-			</ul>
+                                <ul class="sub-menu">
+                                    {{ range .list }}
+                                    <li><a href="{{ .url }}">{{ .name }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            {{ end }}
+                        </ul>
 
                         {{ if not (eq $.Site.Params.qweather.key "") }}
                         <div class="rounded-circle weather">
@@ -66,7 +66,8 @@
                                     }
                                 }
                             </script>
-                            <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
+                            <script
+                                src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
                         </div>
                         {{ end }}
                     </div>
@@ -79,24 +80,24 @@
                                 fetch('https://v1.hitokoto.cn')
                                     .then(response => response.json())
                                     .then(data => {
-                                    const hitokoto = document.getElementById('hitokoto_text')
-                                    hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
-                                    hitokoto.innerText = data.hitokoto
+                                        const hitokoto = document.getElementById('hitokoto_text')
+                                        hitokoto.href = 'https://hitokoto.cn/?uuid=' + data.uuid
+                                        hitokoto.innerText = data.hitokoto
                                     })
                                     .catch(console.error)
-                            </script>                           
+                            </script>
                             <div id="hitokoto"><a href="#" target="_blank" id="hitokoto_text">疏影横斜水清浅，暗香浮动月黄昏。</a></div>
                         </li>
                         {{ end }}
                         <!-- 一言 end -->
-                        <li class="nav-search ml-3 ml-md-4">
+                        <!-- <li class="nav-search ml-3 ml-md-4">
                             <a href="javascript:" data-toggle="modal" data-target="#search-modal"><i
                                     class="iconfont icon-search icon-2x"></i></a>
                         </li>
                         <li class="nav-item d-md-none mobile-menu ml-3 ml-md-4">
                             <a href="javascript:" id="sidebar-switch" data-toggle="modal"
                                 data-target="#sidebar"><i class="iconfont icon-classification icon-2x"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>

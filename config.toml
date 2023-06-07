@@ -10,9 +10,9 @@ publishDir            = "public"					# 站点静态文件保存目录
 
 [params]
     author        = "zhuima"
-    description   = "AIGC 网址导航 | AI 工具大全"
-    upload        = "https://github.com/zhuima/nav"  # 左侧导航栏的"网站提交"
-    about         = "https://github.com/zhuima/nav"	# 左侧导航栏的"关于导航"页面(./about)
+    description   = "AI导航汇集了数百种国内外优秀的AI工具，包括AI写作工具、AI图像生成和背景处理、AI视频制作、AI音频转录、AI辅助编程、AI音乐生成、AI绘画设计、AI对话聊天等领域的顶尖工具，同时还提供常用的AI学习开发网站、框架和模型库，以助你轻松融入人工智能的世界，高效自动化完成任务！"
+    upload        = "./upload"  # 左侧导航栏的"网站提交"
+    about         = "./about"	# 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/zhuima/nav"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = "AIGC 网址导航"				# 预加载的动画文字, 只有当enablePreLoad=true时生效

@@ -17,14 +17,24 @@
       description: 软考通关宝典
     - title: 追马部落阁
       logo: blog.png
-      url: https://blog.ruankao168.top/
+      url: https://blog.ruankao.eu.org/
       description: 一个专注于追风的博客
     - title: 上上签
       logo: 上上签.png
-      url: https://yunshi.ruankao168.top/
+      url: https://yunshi.ruankao.eu.org/
       description: 快来测一测你的运势吧
+    - title: 软考倒计时
+      logo: ruankao.png
+      url: https://p.ruankao.eu.org/
+      description: 软考倒计时
+    - title: AI时代掘金计划
+      logo: ruankao.png
+      url: https://wiki.ruankao.eu.org/
+      description: AIGC知识库
+    - title: 无需魔法的New Bing AI
+      url: https://bing.ruankao.eu.org
+      description: 免费和GPT4畅聊
     - title: 公众号平台
-      logo: 微信公众号.png
       url: https://mp.weixin.qq.com/
       description: 再小的个体也有自己的品牌。
     - title: GitHub
@@ -300,3 +310,42 @@
           url: https://www.evidentlyai.com
           description: 开源的机器学习模型监测和测试工具
           logo: evidently.png
+        - title: DeepSpeed
+          url: https://github.com/microsoft/DeepSpeed
+          description: 微软开源
+        - title: ChatGLM-6B
+          url: https://github.com/THUDM/ChatGLM-6B 
+          description: 清华开源
+        - title: GLM-130B
+          url: https://github.com/THUDM/GLM-130B
+          description: 清华开源
+        - title: stableLM
+          url: https://github.com/stability-AI/stableLM/ 
+          description: Stable 开源
+        - title: YaLM-100B
+          url: https://github.com/yandex/YaLM-100B 
+          description: yandex开源
+        - title: bloom-megatron-deepspeed
+          url: https://huggingface.co/blog/bloom-megatron-deepspeed 
+          description: BLOOM 法国的
+        - title: LMFlow
+          url: https://github.com/OptimalScale/LMFlow 
+          description: 香港科技大学 开源
+        - title: llama
+          url: https://github.com/facebookresearch/llama 
+          description: facebook 开源
+        - title: stanford_alpaca
+          url: https://github.com/tatsu-lab/stanford_alpaca 
+          description: 斯坦福大学
+        - title: FastChat
+          url: https://github.com/lm-sys/FastChat 
+          description: 常青藤联盟 小羊驼
+        - title: vicuna-13b-delta-v0
+          url: https://huggingface.co/lmsys/vicuna-13b-delta-v0/tree/main
+          description: 小羊驼
+
+
+
+
+
+
